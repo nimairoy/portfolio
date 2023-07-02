@@ -1,0 +1,183 @@
+#react{
+    animation: animate1 16s linear 0.5s infinite; 
+}
+
+@keyframes animate1 {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+#star{
+    animation: animate2 10s alternate-reverse 0.5s infinite; 
+}
+
+@keyframes animate2 {
+    0%{
+        transform: skew(0) translate(0);
+    }
+    25%{
+        transform: skew(45deg) translate(100%);
+    }
+    50%{
+        transform: translate(200%);
+    }
+    100%{
+        transform: translate(400%) scale(1.5);
+    }
+}
+
+
+#triangle{
+    animation: animate3 18s alternate-reverse 0.5s infinite;
+}
+
+@keyframes animate3 {
+    0%{
+        transform: translate(0) rotate(0);
+    }
+    50%{
+        transform: translate(-300px, -50px);
+    }
+    100%{
+        transform: translate(-300px,-100px) rotate(360deg);
+        color: rgb(166, 255, 0);
+    }
+}
+
+
+#star1{
+    animation: star1 18s linear infinite;
+}
+@keyframes star1 {
+    0%{
+        top: 103%;
+        left: 3%;
+    }
+    4%{
+        
+        visibility: visible;
+        left: 3%;
+    }
+    100%{
+        position: absolute;
+        top: 0;
+        left: 3%;
+    }
+}
+
+#star2{
+    animation: star2 9s linear infinite;
+}
+@keyframes star2 {
+    0%{
+        top: 103%;
+        left: 8%;
+    }
+    4%{
+        
+        visibility: visible;
+        left: 8%;
+    }
+    100%{
+        position: absolute;
+        top: 0;
+        left: 8%;
+    }
+}
+
+#star3{
+    animation: star3 15s linear infinite;
+}
+@keyframes star3 {
+    0%{
+        top: 103%;
+        left: 50%;
+    }
+    4%{
+        
+        visibility: visible;
+    }
+    100%{
+        position: absolute;
+        top: 0;
+        left: 50%;
+    }
+}
+
+#star4{
+    animation: star4 15s linear infinite;
+}
+@keyframes star4 {
+    0%{
+        top: 103%;
+        left: 70%;
+    }
+    4%{
+        
+        visibility: visible;
+    }
+    100%{
+        position: absolute;
+        top: 0;
+        left: 70%;
+    }
+}
+#star5{
+    animation: star5 10s linear infinite;
+}
+@keyframes star5 {
+    0%{
+        top: 103%;
+        left: 80%;
+    }
+    4%{
+        
+        visibility: visible;
+    }
+    100%{
+        position: absolute;
+        top: 0;
+        left: 90%;
+    }
+}
+#star6{
+    animation: star6 13s linear infinite;
+}
+@keyframes star6 {
+    0%{
+        top: 103%;
+        left: 40%;
+    }
+    4%{
+        
+        visibility: visible;
+    }
+    100%{
+        position: absolute;
+        top: 0;
+        left: 30%;
+    }
+}
+#star7{
+    animation: star7 14s linear infinite;
+}
+@keyframes star7 {
+    0%{
+        top: 103%;
+        left: 20%;
+    }
+    4%{
+        
+        visibility: visible;
+    }
+    100%{
+        position: absolute;
+        top: 0;
+        left: 20%;
+    }
+}

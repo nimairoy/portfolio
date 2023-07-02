@@ -1,17 +1,17 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
     const navbarItems = <>
-        <li> <NavLink className="bg-none text-lg hover:text-green-500" to="/"> Home </NavLink></li>
-        <li> <NavLink className="bg-none text-lg hover:text-green-500" to="/about"> About </NavLink></li>
-        <li> <NavLink className="bg-none text-lg hover:text-green-500" to="/service"> Services </NavLink></li>
-        <li> <NavLink className="bg-none text-lg hover:text-green-500" to="/portfolio"> Portfolio </NavLink></li>
-        <li> <NavLink className="bg-none text-lg hover:text-green-500" to="/contact"> Contact </NavLink></li>
+        <li> <Link className="bg-none text-lg hover:text-yellow-500" to="/"> Home </Link></li>
+        <li> <Link className="bg-none text-lg hover:text-yellow-500" to="/about"> About </Link></li>
+        <li> <a className="bg-none text-lg hover:text-yellow-500" href="/#service"> Services </a></li>
+        <li> <Link className="bg-none text-lg hover:text-yellow-500" to="/portfolio"> Portfolio </Link></li>
+        <li> <Link className="bg-none text-lg hover:text-yellow-500" to="/contact"> Contact </Link></li>
     </>
 
     return (
-        <div style={ {backgroundColor: "#050505"} } className="text-white">
+        <div style={ {backgroundColor: '#9333EA'} } className="text-white">
             <div className="navbar my-container">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -22,7 +22,7 @@ const Navbar = () => {
                             {navbarItems}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <a className="btn btn-ghost  text-yellow-400 text-xl">Dev Nimai</a>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
