@@ -2,6 +2,7 @@ import banner from '../../../assets/images/banner.jpg'
 import img1 from '../../../assets/images/atom.png'
 import img2 from '../../../assets/images/star.png'
 import img3 from '../../../assets/images/right.png'
+import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 import './Banner.css'
 import React from 'react';
 import TextTransition, { presets } from 'react-text-transition';
@@ -32,6 +33,10 @@ const Banner = () => {
                 </div>
                 <div className='absolute right-28'>
                     <img id='triangle' className='w-10' src={img3} alt="" />
+                </div>
+                <div className='absolute top-1/4 right-20'>
+                    <a href="https://github.com/nimairoy" target="_blank" rel="noopener noreferrer"><AiFillGithub className='text-5xl bg-purple-200 p-1 rounded-sm'></AiFillGithub></a>
+                    <a className='mt-4 bg-purple-400' target='_blank' rel="noopener noreferrer" href="https://www.linkedin.com/in/nimai-chandra-roy-b850971bb/"><AiFillLinkedin className='bg-purple-200 p-1 rounded-sm mt-3 text-5xl text-blue-500'></AiFillLinkedin></a>
                 </div>
                 <div className="hero-content w-full text-center text-neutral-content">
                     <div className="max-w-xl absolute bottom-20">

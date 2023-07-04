@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
-        <div className="bg-purple-600 py-24">
+        <div id='portfolio' className="bg-purple-600 py-24">
             <div className="my-container">
-                <h1 data-aos="fade-up" className="mb-12 mt-4 text-center text-white text-3xl font-bold">Recent Works</h1>
+                <h1 data-aos="fade-up" className="mb-12 mt-4 text-center text-white text-5xl font-bold">Recent Works</h1>
 
                 <div className='grid md:grid-cols-3 md:gap-4'>
 

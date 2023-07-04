@@ -12,7 +12,7 @@ const Services = () => {
     return (
         <div id='service' className="bg-purple-600 pt-16 pb-24">
             <div className='my-container'>
-                <h1 data-aos="fade-down" data-aos-anchor-placement="center-center"  className="mb-5 mt-4 text-center text-white text-3xl font-bold">What I Do ?</h1>
+                <h1 data-aos="fade-down" data-aos-anchor-placement="center-center"  className="mb-5 mt-4 text-center text-white text-5xl font-bold">What I Do ?</h1>
                 <p data-aos="fade-up" data-aos-anchor-placement="center-center" className='text-center text-white mb-12'>I have more than 1 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies i use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
                 <div className='grid md:grid-cols-4 md:gap-4'>
 

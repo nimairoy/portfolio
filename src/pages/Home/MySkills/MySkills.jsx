@@ -4,7 +4,7 @@ import ProgressBar from 'react-animated-progress-bar';
 const MySkills = () => {
     return (
         <div className='my-container'>
-            <h1 data-aos="zoom-out-down" className="mb-5 mt-16 text-center text-3xl font-bold">My Skills</h1>
+            <h1 data-aos="zoom-out-down" className="mb-5 mt-16 text-center text-5xl font-bold">My Skills</h1>
             <p data-aos="zoom-out-up" className='text-center mb-12'> My work is clean, user-friendly, fully responsive and Also world-class level. </p>
             <div className='grid md:grid-cols-2 gap-4 mb-16'>
                 <div>

@@ -1,13 +1,12 @@
-import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
     const navbarItems = <>
-        <li> <Link className="bg-none text-lg hover:text-yellow-500" to="/"> Home </Link></li>
-        <li> <Link className="bg-none text-lg hover:text-yellow-500" to="/about"> About </Link></li>
+        <li> <a className="bg-none text-lg hover:text-yellow-500" href="/"> Home </a></li>
+        <li> <a className="bg-none text-lg hover:text-yellow-500" href="/#about"> About </a></li>
         <li> <a className="bg-none text-lg hover:text-yellow-500" href="/#service"> Services </a></li>
-        <li> <Link className="bg-none text-lg hover:text-yellow-500" to="/portfolio"> Portfolio </Link></li>
-        <li> <Link className="bg-none text-lg hover:text-yellow-500" to="/contact"> Contact </Link></li>
+        <li> <a className="bg-none text-lg hover:text-yellow-500" href="/#portfolio"> Portfolio </a></li>
+        <li> <a className="bg-none text-lg hover:text-yellow-500" href="/contact"> Contact </a></li>
     </>
 
     return (
