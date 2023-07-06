@@ -2,6 +2,7 @@ import banner from '../../../assets/images/banner.jpg'
 import img1 from '../../../assets/images/atom.png'
 import img2 from '../../../assets/images/star.png'
 import img3 from '../../../assets/images/right.png'
+import resume from '../../../assets/resume/resume.pdf'
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 import './Banner.css'
 import React from 'react';
@@ -44,7 +45,7 @@ const Banner = () => {
                         <h1 className="mt-36 md:mt-0 mb-5 text-3xl md:text-5xl font-bold">
                             <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
                         </h1>
-                        <button className="btn  sm:btn-sm md:btn-md lg:btn-lg mb-6 btn-warning">Get Started</button>
+                        <a href={resume} download='Resume'> <button className="btn  sm:btn-sm md:btn-md lg:btn-lg mb-6 btn-warning">Download Resume</button></a>
                     </div>
                 </div>
             </div>
