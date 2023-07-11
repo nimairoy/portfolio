@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
-        <div id='portfolio' className="bg-purple-600 py-24">
+        <div id='portfolio' className="py-24">
             <div className="my-container">
                 <h1 data-aos="fade-up" className="mb-12 mt-4 text-center text-white text-3xl md:text-5xl font-bold">Recent Works</h1>
 

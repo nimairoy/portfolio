@@ -2,7 +2,7 @@ import { AiFillFacebook, AiFillLinkedin, AiFillTwitterSquare } from "react-icons
 
 const Contact = () => {
     return (
-        <div id="contact" className='my-container my-4 md:pb-16  md:pt-12'>
+        <div id="contact" className='my-container text-white my-4 md:pb-16  md:pt-12'>
             <h4 data-aos="fade-up" className='text-3xl md:text-5xl text-center font-semibold mb-12 mt-16'>Contact Me</h4>
             <div className=" md:grid md:grid-cols-2 gap-4 items-center">
                 <div data-aos="fade-right">
@@ -11,9 +11,9 @@ const Contact = () => {
                     <p><strong>Email:</strong> nimairoy718@gmail.com</p>
                     <h4 className='text-xl md:text-3xl mt-8 font-semibold mb-4'>Social Links</h4>
                     <div className="flex gap-2 mb-5 md:mb-0">
-                        <a target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/nimairoy08"><AiFillFacebook className="text-3xl text-blue-600"></AiFillFacebook></a>
-                        <a target="_blank" rel="noreferrer noopener" href="https://twitter.com/NimaiRo57801085"><AiFillTwitterSquare className="text-3xl text-blue-500"></AiFillTwitterSquare></a>
-                        <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/nimai-chandra-roy-b850971bb/"><AiFillLinkedin className="text-3xl text-blue-800"></AiFillLinkedin></a>
+                        <a target="_blank" rel="noreferrer noopener" href="https://www.facebook.com/nimairoy08"><AiFillFacebook className="text-3xl text-yellow-300"></AiFillFacebook></a>
+                        <a target="_blank" rel="noreferrer noopener" href="https://twitter.com/NimaiRo57801085"><AiFillTwitterSquare className="text-3xl text-yellow-500"></AiFillTwitterSquare></a>
+                        <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/nimai-chandra-roy-b850971bb/"><AiFillLinkedin className="text-3xl text-yellow-400"></AiFillLinkedin></a>
                     </div>
                 </div>
                 <div data-aos="fade-left" className="border rounded-md shadow-xl py-12 px-4 border-indigo-100">

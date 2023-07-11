@@ -3,7 +3,7 @@ import ProgressBar from 'react-animated-progress-bar';
 
 const MySkills = () => {
     return (
-        <div className='my-container'>
+        <div className='my-container text-white'>
             <h1 data-aos="zoom-out-down" className="mb-5 mt-16 text-center text-3xl md:text-5xl font-bold">My Skills</h1>
             <p data-aos="zoom-out-up" className='text-center mb-12'> My work is clean, user-friendly, fully responsive and Also world-class level. </p>
             <div className='grid md:grid-cols-2 gap-4 mb-16'>
@@ -13,13 +13,13 @@ const MySkills = () => {
                         width="400px"
                         height="12px"
                         rect
-                        fontColor="gray"
+                        fontColor="yellow"
                         percentage="90"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
                         bgColor="#333333"
-                        trackBorderColor="grey"
+                        trackBorderColor="yellow"
                     />
                 </div>
                 <div>
@@ -28,13 +28,13 @@ const MySkills = () => {
                         width="400px"
                         height="12px"
                         rect
-                        fontColor="gray"
+                        fontColor="yellow"
                         percentage="80"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
                         bgColor="#333333"
-                        trackBorderColor="grey"
+                        trackBorderColor="yellow"
                     />
                 </div>
                 <div>
@@ -43,14 +43,14 @@ const MySkills = () => {
                         width="400px"
                         height="12px"
                         rect
-                        fontColor="gray"
+                        fontColor="yellow"
                         percentage="75"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
                         rectBackgroundColor="#FACC15" 
                         bgColor="#333333"
-                        trackBorderColor="grey"
+                        trackBorderColor="yellow"
                     />
                 </div>
                 <div>
@@ -59,13 +59,13 @@ const MySkills = () => {
                         width="400px"
                         height="14px"
                         rect
-                        fontColor="gray"
+                        fontColor="yellow"
                         percentage="70"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
                         bgColor="#333333"
-                        trackBorderColor="grey"
+                        trackBorderColor="yellow"
                     />
                 </div>
                 <div>
@@ -74,13 +74,13 @@ const MySkills = () => {
                         width="400px"
                         height="14px"
                         rect
-                        fontColor="gray"
+                        fontColor="yellow"
                         percentage="50"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
                         bgColor="#333333"
-                        trackBorderColor="grey"
+                        trackBorderColor="yellow"
                     />
                 </div>
                 <div>
@@ -89,13 +89,13 @@ const MySkills = () => {
                         width="400px"
                         height="14px"
                         rect
-                        fontColor="gray"
+                        fontColor="yellow"
                         percentage="40"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
                         bgColor="#333333"
-                        trackBorderColor="grey"
+                        trackBorderColor="yellow"
                     />
                 </div>
                 <div>
@@ -104,13 +104,13 @@ const MySkills = () => {
                         width="400px"
                         height="14px"
                         rect
-                        fontColor="gray"
+                        fontColor="yellow"
                         percentage="50"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
                         bgColor="#333333"
-                        trackBorderColor="grey"
+                        trackBorderColor="yellow"
                     />
                 </div>
                 <div>
@@ -119,13 +119,13 @@ const MySkills = () => {
                         width="400px"
                         height="14px"
                         rect
-                        fontColor="gray"
+                        fontColor="yellow"
                         percentage="70"
                         rectPadding="1px"
                         rectBorderRadius="20px"
                         trackPathColor="transparent"
                         bgColor="#333333"
-                        trackBorderColor="grey"
+                        trackBorderColor="yellow"
                     />
                 </div>
             </div>
